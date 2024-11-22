@@ -2,6 +2,7 @@ package org.dador;
 
 /**
  *
+ * ABDELDAIM Yasser 
  */
 public class MultiTimePad {
 
@@ -49,6 +50,11 @@ public class MultiTimePad {
         // TODO: renseigner les valeurs de la clé..
         key[0] = 0 ;
         key[1] = 0x50;
+        key[2] = (byte) 0xcc;
+        key[3] = (byte) 0xbf ;
+        key[4] = (byte) 0xff ;
+        key[5] = (byte) 0xfc ;
+        
 
 
         System.out.println("Key :");
